@@ -1,0 +1,184 @@
+/* https://65df37f2b5f92c0ff68600ae--elegant-gecko-e66360.netlify.app/ */
+*{
+    margin: 0;
+    font-family:arial;
+    border: border-box; /*it helps whenever we do border properties with any elt it will this ans refernce  */
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image:url(amazon_logo.png) ;
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 1.5px solid black;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/* second box */
+.add-f{
+    color: #cccccc;
+    font: size 0.85rem; 
+    margin-left: 15px;
+}
+.add-s{
+    font-size: 1rem;
+}
+.add-icon{
+    display: flex;
+}
+/* box3 */
+.nav-search{
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: center;
+}
+.search-bar{
+    width: 500px;
+    border: none;
+}
+.search-option{
+    width: 80px;
+}
+.search-icon{
+    width: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(88, 88, 7);   
+}
+.nav-search:hover{
+    border: 2px solid yellow;
+}
+/* box4 */
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.82rem;
+}
+/* box 5 */
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    ;
+}
+/* panel styling */
+.panel{
+    height: 40px;
+    background-color:#222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+  
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/* hero section */
+.hero-section{
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+}
+.hero-msg a{
+    color: #007185;
+}
+/* shop section */
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    border:2px solid black;
+    height: 400px;
+    width:23%;
+    background-color: white;
+    padding:20px 0px 15px;
+    margin-top: 10px;
+    border: none;
+}
+.box-img{
+    height:300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content a{
+    color: #007185;
+}
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul {
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
